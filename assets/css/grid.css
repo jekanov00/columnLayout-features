@@ -78,7 +78,7 @@
 .col-xl-10,
 .col-xl-11,
 .col-xl-12 {
-    padding: 0 15px;
+    padding: 0 calc(var(--gutter) / 2);
     flex: 1;
     flex-basis: 100%;
 }
