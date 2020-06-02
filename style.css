@@ -1,2 +1,49 @@
 @import "assets/css/reset.css";
 @import "assets/css/grid.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#pageTitle {
+    font-size: 0;
+    width: 1px;
+    height: 1px;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute!important;
+    border: 0!important;
+    padding: 0!important;
+    margin: 0!important;
+    clip: rect(1px,1px,1px,1px);
+}
+
+.container {
+    text-align: center;
+}
+
+.articleHeader {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.articleInfo {
+    color: grey;
+    line-height: 1.5rem;
+    margin:0 20px 50px;
+}
+
+.articleIcon {
+    width: 120px;
+    height: 120px;
+    fill: #ec474a;
+    margin-top: 20px;
+}
